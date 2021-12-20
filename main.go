@@ -3,11 +3,11 @@ package main
 import (
 	"log"
 
-	"github.com/abhishek-singh/config"
+	"path/config"
 	_ "github.com/jinzhu/gorm/dialects/postgres"
 
 
-	"github.com/abhishek-singh/router"
+	"path/router"
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
 )
